@@ -1,0 +1,26 @@
+.cover__text-container {
+  right: 0;
+  bottom: 0;
+
+  width: 100%;
+  min-height: 740px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+
+  background-color: rgba(42, 44, 47, 0.3);
+}
+
+@media screen and (max-width: 1184px) {
+  .cover__text-container {
+    min-height: calc(100vw / 1.6);
+  }
+}
+
+.cover__text-container:hover {
+  background-color: rgba(42, 44, 47, .8);
+  transition: 0.6s ease-in-out;
+}

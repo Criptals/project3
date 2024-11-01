@@ -1,0 +1,13 @@
+.footer__link-anchor {
+    margin: 0;
+    padding-right: 18px;
+
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+.footer__link-anchor:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
